@@ -1,0 +1,40 @@
+/* Banner.css */
+.banner-container {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-top: 150px;
+    width: 300px; /* Fixed pixel value */
+  }
+  
+  .banner {
+    padding: 10px;
+  }
+  
+  .banner h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-container {
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
