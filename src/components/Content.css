@@ -102,6 +102,15 @@
     width: 250px;
     margin-left:950px;
 }
+#news25{
+    width: 200px;
+    margin-top: -575px;
+    margin-left: -70px;
+}
+#news25:hover{
+    opacity: 90%;
+
+}
 #para{
     margin-top:-190px;
     margin-left: 130px;

@@ -126,14 +126,28 @@ function Content() {
                 </div>
             </Link>
             </div>
+            <div class="container">
+                <div class="card bg-dark text-white" id="news25">
+                <img class="card-img-top" src="railway.jpg" alt="BigCo Inc. logo"/>
+                <div class="card-img-overlay">
+                    <h5>"The Railway Man" series </h5>
+                </div>
+                </div>
+            </div>
             <div id="line1"></div>
             <div class="container">
             <div class="card"id="spotlight">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item" ><a id="linkd" class="DB" href="https://www.google.com/" onClick={handleClick}><h4>DB Spotlight</h4></a></li> 
-                    <li class="list-group-item" ><a id="linkc" href="https://www.google.com/" onClick={handleClick}>DB Spotlight</a></li> 
-                    <li class="list-group-item" ><a id="linkc" href="https://www.google.com/" onClick={handleClick}>DB Spotlight</a></li> 
-                    <li class="list-group-item" ><a id="linkc" href="https://www.google.com/" onClick={handleClick}>DB Spotlight</a></li> 
+                    <li class="list-group-item" ><a id="linkd" class="DB" href="https://www.google.com/"><h4>DB Spotlight</h4></a></li> 
+                <Link to="/News15" onClick={handleClick}>
+                    <li class="list-group-item" ><a id="linkc" href="https://www.google.com/" onClick={handleClick}>Uttarkashi tunnel collapse: NDRF shows how 41 stranded workers will be rescued</a></li> 
+                </Link>
+                    <Link to="/News16" onClick={handleClick}>
+                    <li class="list-group-item" ><a id="linkc" href="https://www.google.com/" onClick={handleClick}>How Kim's Daughter, North Korea Scientists Celebrated Spy Satellite Launch</a></li> 
+                    </Link>
+                    <Link to="/News18" onClick={handleClick}>
+                    <li class="list-group-item" ><a id="linkc" href="https://www.google.com/" onClick={handleClick}>Violent Clashes In Dublin After Children Stabbed Outside School</a></li> 
+                    </Link>
                 </ul>
               </div>
         </div>
